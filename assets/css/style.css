@@ -142,7 +142,6 @@ section {
   /* Hero Style End */
 
 .intro p {
-      /* add this alongside your other declarations */
       margin: 0 auto;
       line-height: 1.7;
       color: #39a6b2;
@@ -272,6 +271,18 @@ section {
 }
 
 /* REACH OUT STYLES START */
+.service-grid-container {
+  display: grid;
+}
+
+.service-grid-item {
+  width: 200px;
+  height: 50px;
+  background-color:orange;
+  border: solid;
+  color: black;
+}
+
 .contact {
     background: #024e76;
   }
