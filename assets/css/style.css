@@ -427,6 +427,10 @@ top: 0;
     font-size: 22px;
     margin-bottom: 15px;
 }
+
+.trainer-bio h3, .trainer-bio h4 {
+  display: none;
+}
   
 .trainer-bio p {
     font-size: 17px;
@@ -690,6 +694,14 @@ top: 0;
   .section-title {
     width: 95%;
   }
+
+ .trainer-img h3, .trainer-img h4, .trainer-img::after {
+   display: none;
+ }
+
+ .trainer-bio h3, .trainer-bio h4 {
+   display: block;
+ }
 
   .intro p {
     width: 100%;
